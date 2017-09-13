@@ -10,7 +10,7 @@ echo ******************************************************
 echo Publishing...
 mkdir !PUBLISH_DIR!\"%mydate%_%mytime%"
 
-xcopy /E /y /q /f /s /i .\Buildtest\ !PUBLISH_DIR!\"%mydate%_%mytime%"
+xcopy /E /y /q /f /s /i .\Buildtest !PUBLISH_DIR!\"%mydate%_%mytime%"
 
 echo.
 echo Publishing complete.
