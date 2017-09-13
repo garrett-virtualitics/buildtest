@@ -1,4 +1,4 @@
-
+setlocal enabledelayedexpansion
 
 set PUBLISH_DIR=C:\Users\Virtualitics\Desktop\WorkingFolder\test
 
