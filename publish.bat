@@ -1,5 +1,7 @@
 setlocal enabledelayedexpansion
 
+start /WAIT "" "C:\Program Files\Unity1p4\Editor\Unity.exe" -batchmode -executeMethod CmdBuild.DevBuild -quit
+
 set PUBLISH_DIR=C:\Users\Virtualitics\Desktop\WorkingFolder\test
 
 For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set mydate=%%c-%%a-%%b)
