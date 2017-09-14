@@ -1,7 +1,7 @@
 setlocal enabledelayedexpansion
 
-echo start /WAIT "" "C:\Program Files\Unity1p4\Editor\Unity.exe" -batchmode -projectPath %1 -executeMethod CmdBuild.DevBuild -quit
-start /WAIT "" "C:\Program Files\Unity1p4\Editor\Unity.exe" -batchmode -projectPath %1 -executeMethod CmdBuild.DevBuild -quit
+echo start /WAIT "" "C:\Program Files\Unity1p4\Editor\Unity.exe" -batchmode -projectPath %1\Buildtest\Buildtest -executeMethod CmdBuild.DevBuild -quit
+start /WAIT "" "C:\Program Files\Unity1p4\Editor\Unity.exe" -batchmode -projectPath %1\Buildtest\Buildtest -executeMethod CmdBuild.DevBuild -quit
 
 set PUBLISH_DIR=C:\Users\Virtualitics\Desktop\WorkingFolder\test
 
