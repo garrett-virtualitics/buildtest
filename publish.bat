@@ -1,3 +1,5 @@
+rem branch-test
+
 setlocal enabledelayedexpansion
 
 echo start /WAIT "" "C:\Program Files\Unity1p4\Editor\Unity.exe" -batchmode -projectPath %1\Buildtest\Buildtest -executeMethod CmdBuild.DevBuild -quit
